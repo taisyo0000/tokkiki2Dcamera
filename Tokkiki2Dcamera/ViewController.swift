@@ -8,13 +8,35 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var imageView: UIImageView!
+    let stamp = UIImage(named: "logo-tokki.gif")
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func btnPushed(_ sender: AnyObject) {
+        // ----- カメラを起動する
+        let picker = UIImagePickerController()
+        picker.sourceType = UIImagePickerController.SourceType.camera
+        picker.delegate = self
+        present(picker, animated: true, completion: nil)
+    }
+    
+    func imagePickerController(picker: UIImagePickerController,
+                               didFinishPickingImage image: UIImage,
+                               editingInfo: [String : AnyObject]?) {
+        imageView.image = image                             // 撮影した画像をセットする
+        dismiss(animated: true, completion: nil)    // アプリ画面へ戻る
+    }
+    
 }
 
