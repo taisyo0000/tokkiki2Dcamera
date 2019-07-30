@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8D48E2E22F068CC00D44A10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D48E2D22F068CC00D44A10 /* AppDelegate.swift */; };
+		A8D48E3022F068CC00D44A10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D48E2F22F068CC00D44A10 /* ViewController.swift */; };
+		A8D48E3322F068CC00D44A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D48E3122F068CC00D44A10 /* Main.storyboard */; };
+		A8D48E3522F068CF00D44A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8D48E3422F068CF00D44A10 /* Assets.xcassets */; };
+		A8D48E3822F068CF00D44A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8D48E3622F068CF00D44A10 /* LaunchScreen.storyboard */; };
+		A8D48E4322F068D000D44A10 /* Tokkiki2DcameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D48E4222F068D000D44A10 /* Tokkiki2DcameraTests.swift */; };
+		A8D48E4E22F068D000D44A10 /* Tokkiki2DcameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8D48E4D22F068D000D44A10 /* Tokkiki2DcameraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8D48E3F22F068D000D44A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D48E2222F068CC00D44A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D48E2922F068CC00D44A10;
+			remoteInfo = Tokkiki2Dcamera;
+		};
+		A8D48E4A22F068D000D44A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8D48E2222F068CC00D44A10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8D48E2922F068CC00D44A10;
+			remoteInfo = Tokkiki2Dcamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8D48E2A22F068CC00D44A10 /* Tokkiki2Dcamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tokkiki2Dcamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D48E2D22F068CC00D44A10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8D48E2F22F068CC00D44A10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8D48E3222F068CC00D44A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8D48E3422F068CF00D44A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8D48E3722F068CF00D44A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8D48E3922F068CF00D44A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D48E3E22F068D000D44A10 /* Tokkiki2DcameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tokkiki2DcameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D48E4222F068D000D44A10 /* Tokkiki2DcameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokkiki2DcameraTests.swift; sourceTree = "<group>"; };
+		A8D48E4422F068D000D44A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8D48E4922F068D000D44A10 /* Tokkiki2DcameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tokkiki2DcameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8D48E4D22F068D000D44A10 /* Tokkiki2DcameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokkiki2DcameraUITests.swift; sourceTree = "<group>"; };
+		A8D48E4F22F068D000D44A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8D48E2722F068CC00D44A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D48E3B22F068D000D44A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D48E4622F068D000D44A10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8D48E2122F068CC00D44A10 = {
+			isa = PBXGroup;
+			children = (
+				A8D48E2C22F068CC00D44A10 /* Tokkiki2Dcamera */,
+				A8D48E4122F068D000D44A10 /* Tokkiki2DcameraTests */,
+				A8D48E4C22F068D000D44A10 /* Tokkiki2DcameraUITests */,
+				A8D48E2B22F068CC00D44A10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8D48E2B22F068CC00D44A10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8D48E2A22F068CC00D44A10 /* Tokkiki2Dcamera.app */,
+				A8D48E3E22F068D000D44A10 /* Tokkiki2DcameraTests.xctest */,
+				A8D48E4922F068D000D44A10 /* Tokkiki2DcameraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8D48E2C22F068CC00D44A10 /* Tokkiki2Dcamera */ = {
+			isa = PBXGroup;
+			children = (
+				A8D48E2D22F068CC00D44A10 /* AppDelegate.swift */,
+				A8D48E2F22F068CC00D44A10 /* ViewController.swift */,
+				A8D48E3122F068CC00D44A10 /* Main.storyboard */,
+				A8D48E3422F068CF00D44A10 /* Assets.xcassets */,
+				A8D48E3622F068CF00D44A10 /* LaunchScreen.storyboard */,
+				A8D48E3922F068CF00D44A10 /* Info.plist */,
+			);
+			path = Tokkiki2Dcamera;
+			sourceTree = "<group>";
+		};
+		A8D48E4122F068D000D44A10 /* Tokkiki2DcameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D48E4222F068D000D44A10 /* Tokkiki2DcameraTests.swift */,
+				A8D48E4422F068D000D44A10 /* Info.plist */,
+			);
+			path = Tokkiki2DcameraTests;
+			sourceTree = "<group>";
+		};
+		A8D48E4C22F068D000D44A10 /* Tokkiki2DcameraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8D48E4D22F068D000D44A10 /* Tokkiki2DcameraUITests.swift */,
+				A8D48E4F22F068D000D44A10 /* Info.plist */,
+			);
+			path = Tokkiki2DcameraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8D48E2922F068CC00D44A10 /* Tokkiki2Dcamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D48E5222F068D000D44A10 /* Build configuration list for PBXNativeTarget "Tokkiki2Dcamera" */;
+			buildPhases = (
+				A8D48E2622F068CC00D44A10 /* Sources */,
+				A8D48E2722F068CC00D44A10 /* Frameworks */,
+				A8D48E2822F068CC00D44A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tokkiki2Dcamera;
+			productName = Tokkiki2Dcamera;
+			productReference = A8D48E2A22F068CC00D44A10 /* Tokkiki2Dcamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8D48E3D22F068D000D44A10 /* Tokkiki2DcameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D48E5522F068D000D44A10 /* Build configuration list for PBXNativeTarget "Tokkiki2DcameraTests" */;
+			buildPhases = (
+				A8D48E3A22F068D000D44A10 /* Sources */,
+				A8D48E3B22F068D000D44A10 /* Frameworks */,
+				A8D48E3C22F068D000D44A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D48E4022F068D000D44A10 /* PBXTargetDependency */,
+			);
+			name = Tokkiki2DcameraTests;
+			productName = Tokkiki2DcameraTests;
+			productReference = A8D48E3E22F068D000D44A10 /* Tokkiki2DcameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8D48E4822F068D000D44A10 /* Tokkiki2DcameraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8D48E5822F068D000D44A10 /* Build configuration list for PBXNativeTarget "Tokkiki2DcameraUITests" */;
+			buildPhases = (
+				A8D48E4522F068D000D44A10 /* Sources */,
+				A8D48E4622F068D000D44A10 /* Frameworks */,
+				A8D48E4722F068D000D44A10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8D48E4B22F068D000D44A10 /* PBXTargetDependency */,
+			);
+			name = Tokkiki2DcameraUITests;
+			productName = Tokkiki2DcameraUITests;
+			productReference = A8D48E4922F068D000D44A10 /* Tokkiki2DcameraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8D48E2222F068CC00D44A10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = ItoHiroki;
+				TargetAttributes = {
+					A8D48E2922F068CC00D44A10 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A8D48E3D22F068D000D44A10 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A8D48E2922F068CC00D44A10;
+					};
+					A8D48E4822F068D000D44A10 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = A8D48E2922F068CC00D44A10;
+					};
+				};
+			};
+			buildConfigurationList = A8D48E2522F068CC00D44A10 /* Build configuration list for PBXProject "Tokkiki2Dcamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8D48E2122F068CC00D44A10;
+			productRefGroup = A8D48E2B22F068CC00D44A10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8D48E2922F068CC00D44A10 /* Tokkiki2Dcamera */,
+				A8D48E3D22F068D000D44A10 /* Tokkiki2DcameraTests */,
+				A8D48E4822F068D000D44A10 /* Tokkiki2DcameraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8D48E2822F068CC00D44A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D48E3822F068CF00D44A10 /* LaunchScreen.storyboard in Resources */,
+				A8D48E3522F068CF00D44A10 /* Assets.xcassets in Resources */,
+				A8D48E3322F068CC00D44A10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D48E3C22F068D000D44A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D48E4722F068D000D44A10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8D48E2622F068CC00D44A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D48E3022F068CC00D44A10 /* ViewController.swift in Sources */,
+				A8D48E2E22F068CC00D44A10 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D48E3A22F068D000D44A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D48E4322F068D000D44A10 /* Tokkiki2DcameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8D48E4522F068D000D44A10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8D48E4E22F068D000D44A10 /* Tokkiki2DcameraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8D48E4022F068D000D44A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D48E2922F068CC00D44A10 /* Tokkiki2Dcamera */;
+			targetProxy = A8D48E3F22F068D000D44A10 /* PBXContainerItemProxy */;
+		};
+		A8D48E4B22F068D000D44A10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8D48E2922F068CC00D44A10 /* Tokkiki2Dcamera */;
+			targetProxy = A8D48E4A22F068D000D44A10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8D48E3122F068CC00D44A10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D48E3222F068CC00D44A10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8D48E3622F068CF00D44A10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8D48E3722F068CF00D44A10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8D48E5022F068D000D44A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8D48E5122F068D000D44A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8D48E5322F068D000D44A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tokkiki2Dcamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItoHiroki.Tokkiki2Dcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8D48E5422F068D000D44A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tokkiki2Dcamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItoHiroki.Tokkiki2Dcamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A8D48E5622F068D000D44A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tokkiki2DcameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItoHiroki.Tokkiki2DcameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokkiki2Dcamera.app/Tokkiki2Dcamera";
+			};
+			name = Debug;
+		};
+		A8D48E5722F068D000D44A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tokkiki2DcameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItoHiroki.Tokkiki2DcameraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tokkiki2Dcamera.app/Tokkiki2Dcamera";
+			};
+			name = Release;
+		};
+		A8D48E5922F068D000D44A10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tokkiki2DcameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItoHiroki.Tokkiki2DcameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tokkiki2Dcamera;
+			};
+			name = Debug;
+		};
+		A8D48E5A22F068D000D44A10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tokkiki2DcameraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItoHiroki.Tokkiki2DcameraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tokkiki2Dcamera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8D48E2522F068CC00D44A10 /* Build configuration list for PBXProject "Tokkiki2Dcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D48E5022F068D000D44A10 /* Debug */,
+				A8D48E5122F068D000D44A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D48E5222F068D000D44A10 /* Build configuration list for PBXNativeTarget "Tokkiki2Dcamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D48E5322F068D000D44A10 /* Debug */,
+				A8D48E5422F068D000D44A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D48E5522F068D000D44A10 /* Build configuration list for PBXNativeTarget "Tokkiki2DcameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D48E5622F068D000D44A10 /* Debug */,
+				A8D48E5722F068D000D44A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8D48E5822F068D000D44A10 /* Build configuration list for PBXNativeTarget "Tokkiki2DcameraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8D48E5922F068D000D44A10 /* Debug */,
+				A8D48E5A22F068D000D44A10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8D48E2222F068CC00D44A10 /* Project object */;
+}
